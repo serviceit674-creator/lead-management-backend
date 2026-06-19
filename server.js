@@ -16,9 +16,9 @@ app.use(express.urlencoded({ extended: true }))
 
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://plantpure.leadora.space",
-  "https://nadeem.leadora.space",
-  "https://vidyaudbhav.leadora.space"
+  "https://www.leadora.space",
+  "https://leadora.space",
+  
 ];
 
 app.use(cors({
