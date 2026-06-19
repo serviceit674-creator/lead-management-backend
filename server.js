@@ -16,7 +16,8 @@ app.use(express.urlencoded({ extended: true }))
 
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://lead-frontend-kappa-ten.vercel.app"
+  "https://www.leadora.space",
+  "https://leadora.space"
 ];
 
 app.use(cors({
